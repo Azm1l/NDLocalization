@@ -1,0 +1,6 @@
+/dist/
+/release-staging/
+*.exe
+*.test
+*.out
+*.zip
