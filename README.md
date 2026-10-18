@@ -52,16 +52,6 @@ Example files:
 - Version 0 import offsets are adjusted to account for the `UNKNOWN STRING!!!\0` marker written before the string table.
 - This port has not been verified with every game/platform variant. Always test on copies and validate by exporting the result again before using it in-game.
 
-## Create a GitHub Release
-
-The `.github/workflows/release.yml` workflow builds `NDLocGo.exe` for Windows amd64 and uploads the executable and ZIP to GitHub Releases when a version tag is pushed.
-
-```bash
-git tag v0.1.0
-git push origin v0.1.0
-```
-
-For a later release, update `CHANGELOG.md` and `RELEASE_NOTES_v0.1.0.md`, then push a new tag such as `v0.1.1`.
 
 ## Build from source
 
